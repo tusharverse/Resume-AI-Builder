@@ -1,11 +1,11 @@
 import React from "react";
 import { Route, Routes, Navigate } from "react-router-dom";
-import Dashboard from "./pages/Dashboard.JSX";
+import Dashboard from "./pages/Dashboard.jsx";
 import ResumeBuilder from "./pages/ResumeBuilder";
 import Preview from "./pages/Preview";
-import Home from "./pages/Home.JSX";
-import Layout from "./pages/Layout.JSX";
-import Login from "./pages/Login.JSX";
+import Home from "./pages/Home.jsx";
+import Layout from "./pages/Layout.jsx";
+import Login from "./pages/Login.jsx";
 import { useAuth } from "./context/AuthContext";
 
 const ProtectedRoute = ({ children }) => {
